@@ -2,3 +2,8 @@ node_modules/
 .electron-cache/
 electron-debug.log
 pumpium-settings.json
+.env
+.env.*
+.DS_Store
+Thumbs.db
+*.log

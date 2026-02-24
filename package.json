@@ -1,5 +1,5 @@
 {
-  "name": "Pumpium",
+  "name": "pumpium",
   "version": "1.0.0",
   "description": "Appium Manager GUI Tool",
   "main": "src/hosts/electron/main.js",
@@ -18,7 +18,6 @@
     "tree-kill": "^1.2.2"
   },
   "devDependencies": {
-    "electron": "^28.0.0",
-    "sharp": "^0.34.5"
+    "electron": "^28.0.0"
   }
 }
