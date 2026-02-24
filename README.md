@@ -1,4 +1,7 @@
-# Pumpium
+<div align="center">
+  <img src="https://raw.githubusercontent.com/bogatav/pumpium/main/src/assets/icon.png" width="80" alt="Pumpium" />
+  <h1>Pumpium</h1>
+</div>
 
 A GUI (Electron-based) tool for managing Appium servers: starting and stopping local instances, viewing logs, and handling remote instances.
 
@@ -27,7 +30,7 @@ Supported on **Windows**, **macOS**, and **Linux**.
 ## Install & run via source
 
 ```bash
-git clone https://github.com/your-username/pumpium.git
+git clone https://github.com/bogatav/pumpium.git
 cd pumpium
 npm install
 npm start
