@@ -1,0 +1,24 @@
+{
+  "name": "Pumpium",
+  "version": "1.0.0",
+  "description": "Appium Manager GUI Tool",
+  "main": "src/hosts/electron/main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --enable-logging"
+  },
+  "keywords": [
+    "appium",
+    "electron",
+    "gui"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "tree-kill": "^1.2.2"
+  },
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "sharp": "^0.34.5"
+  }
+}

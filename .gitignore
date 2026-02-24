@@ -1,0 +1,4 @@
+node_modules/
+.electron-cache/
+electron-debug.log
+pumpium-settings.json
