@@ -1,23 +1,25 @@
 {
   "name": "pumpium",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Appium Manager GUI Tool",
   "main": "src/hosts/electron/main.js",
   "scripts": {
     "start": "electron .",
-    "dev": "electron . --enable-logging"
+    "dev": "electron . --enable-logging",
+    "build": "electron-builder",
+    "build:mac": "electron-builder --mac --universal",
+    "build:win": "electron-builder --win",
+    "build:win:portable": "electron-builder --win --config.win.target=portable",
+    "build:linux": "electron-builder --linux"
   },
-  "keywords": [
-    "appium",
-    "electron",
-    "gui"
-  ],
+  "keywords": ["appium", "electron", "gui"],
   "author": "",
   "license": "MIT",
   "dependencies": {
     "tree-kill": "^1.2.2"
   },
   "devDependencies": {
-    "electron": "^28.0.0"
+    "electron": "^28.0.0",
+    "electron-builder": "^24.13.3"
   }
 }

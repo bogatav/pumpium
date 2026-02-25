@@ -16,6 +16,7 @@ I originally built it for personal use and decided to share it. If you find it i
   - make some control over remote instance;
 2. Add more features for log filtering.
 3. Implement install, update, remove drivers and other appium stuff via Pumpium.
+4. Add builds for MacOS, Windows, Linux.
 
 ## Features
 
@@ -35,6 +36,21 @@ cd pumpium
 npm install
 npm start
 ```
+
+## Building installers
+
+- **macOS** (single DMG for Apple Silicon and Intel):  
+  `npm run build:mac`  
+  Output: `dist/Pumpium-1.0.0.dmg` — open it and drag the app to Applications.
+
+- **Windows 10/11**:  
+  `npm run build:win` — installer + portable .exe in `dist/`. Portable only: `npm run build:win:portable`.
+
+- **Linux** (Ubuntu, Debian, Arch, etc.):  
+  `npm run build:linux`  
+  Output: AppImage and .deb in `dist/`.
+
+macOS code signing and notarization are configured via environment variables (see comments in `electron-builder.config.js`).
 
 ## Tech
 

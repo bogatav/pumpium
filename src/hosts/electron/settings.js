@@ -5,7 +5,7 @@ const settingsFile = require('../../core/settingsFile');
 const FILENAME = 'pumpium-settings.json';
 
 function getSettingsPath() {
-  return path.join(app.getAppPath(), FILENAME);
+  return path.join(app.getPath('userData'), FILENAME);
 }
 
 function loadSettings() {
